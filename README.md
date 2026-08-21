@@ -1,6 +1,6 @@
 # novelwriting-skill-suit
 
-**一套六个互相衔接的 AI 写作 Skill，把长篇小说（网文）创作的完整工作流固化下来：立项 → 分章写作 → 强制审校 → 跨会话交接，外加节奏密度与文风蒸馏两个叠加层。**
+**一套七个互相衔接的 AI 写作 Skill，把长篇小说（网文）创作的完整工作流固化下来：立项 → 分章写作 → 强制审校 → 跨会话交接，外加节奏密度与文风蒸馏两个叠加层。**
 
 适用于任何支持 SKILL.md 技能的 AI 助手（Kimi / Claude Code / 其他兼容工具）。
 
@@ -15,7 +15,7 @@ AI 写长篇小说的四个经典翻车现场：
 
 这套件把每个环节都变成了 AI 必须执行的强制流程，而不是"建议"。
 
-## 六个 Skill
+## 七个 Skill
 
 | Skill | 职责 | 触发示例 |
 |---|---|---|
@@ -25,6 +25,7 @@ AI 写长篇小说的四个经典翻车现场：
 | [`novel-handoff`](novel-handoff/) | **跨会话状态文件**：写前必读、写后必更；附风格DNA提取、连续性六类故障审计、跨AI工具移植协议 | "继续写上一本" |
 | [`novel-pacing`](novel-pacing/) | **节奏密度（叠加层）**：每句话必须缴税；蒸馏自爆款《我在精神病院学斩神》的名场面公式与空话删除清单 | "这章太水了，砍一遍" |
 | [`style-distillation`](style-distillation/) | **文风蒸馏（叠加层）**：上传喜爱作者的文本 → 调研+分析 → 产出文风规格书 → 按该文风创作 | "用这位作家的笔风写" |
+| [`novel-engagement`](novel-engagement/) | **期待感与代入感（签约层）**：开篇即时吸引力三要素、期待感五大发动机、代入感四纪律、憋屈→爽感→感动公式 | "被拒稿了/不勾人/没代入" |
 
 ## 工作流全景
 
@@ -41,7 +42,7 @@ novel-outline → novel-writing → novel-proofreading → novel-handoff
 # 1. 下载（整包）
 #    Release 附件或仓库根目录的 novel-suite.zip
 
-# 2. 解压后把六个文件夹复制到你的 skills 目录：
+# 2. 解压后把七个文件夹复制到你的 skills 目录：
 #    Kimi / Kimi Code:   ~/.agents/skills/
 #    Claude Code:        ~/.claude/skills/
 #    项目级:             <项目>/.agents/skills/
